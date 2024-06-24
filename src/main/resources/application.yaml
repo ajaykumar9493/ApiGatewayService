@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: ApiGateway
+
+server:
+  port: 8080
+
+#movie-service.url: http://localhost:8081/movies
+#
+#rating-service.url: http://localhost:8082/rating
+
+movie-service:
+  url: http://localhost:8081/movies
+rating-service:
+  url: http://localhost:8082/rating
+
+
+
