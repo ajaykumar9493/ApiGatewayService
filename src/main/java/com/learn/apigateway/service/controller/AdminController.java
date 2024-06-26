@@ -23,14 +23,6 @@ public class AdminController {
     @Value("${rating-service.url}")
     private String RattingServiceUrl;
 
-/*
-    private final RestTemplate restTemplate;
-
-    public AdminController(RestTemplate restTemplate) {
-        this.restTemplate = restTemplate;
-    }
-*/
-
     @PostMapping
     public ResponseEntity<Object> addMovir(@RequestBody Movie movie) {
         try {
